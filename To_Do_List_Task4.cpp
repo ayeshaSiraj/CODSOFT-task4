@@ -231,7 +231,7 @@ cin>>choice;
         {
             string name;
             cout<<"Enter task name "<<endl;
-            getchar();
+            getwchar();
             getline(cin,name);
             cout<<"Enter the priority level of the task on the scale of 1 onwards"<<endl;
             int p;
